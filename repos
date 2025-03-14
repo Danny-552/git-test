@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<body>
+  <div class="survey-form">
+    <form id="survey-form">
+<h1 id="title">What book taught you the most about life</h1>
+<link rel="stylesheet" href="styles.css" />
+<p id="description">What is a book that has helped you navigate through life, teaching you valuable lessons that you continue to use today and will carry with you throughout your journey?</p>
+
+  <fieldset>
+  <label id="name-label">Enter your name: </label>
+        <input type="text" id="name" name="name" placeholder="Enter your name"  required />
+
+        <label id="email-label">Enter your email: </label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required />
+
+        <label id="number-label">Enter your age: </label>
+        <input type="number" id="number" name="age" placeholder="Enter your age" min="0" max="120" />
+
+        <label for="books">How many books do you read a month? </label>
+        <input type="number" id="books" name="books" />
+
+   <div class="radio-group">
+          <legend>Do you prefer to read:</legend>
+          <input type="radio" id="long" name="book_length" value="long">
+          <label for="long">Long books</label>
+          </div>
+          <div class="radio-group">
+          <input type="radio" id="short" name="book_length" value="short">
+          <label for="short">Short books</label>
+        </div>
+<label>How do you like to read books?</label>
+<select id="dropdown" name="opinion">
+  <option value="">(select one)</option>
+  <option value="1">digital</option>
+  <option value="2">physical</option></select>
+
+  
+  <div class="form-group">
+    <label for="genre-question">What's your favorite book genre?</label>
+    <div class="checkbox-group">
+      <label><input type="checkbox" name="genre" value="romance"> Romance</label>
+<div class="checkbox-group">
+<label><input type="checkbox" name="genre" value="mystery"> mystery</label>
+
+
+</div>
+<div class="checkbox-group">
+<label><input type="checkbox" name="genre" value="fantasy"> Fantasy</label>
+
+
+</div>
+</div>
+<div class="checkbox-group">
+<label><input type="checkbox" name="genre" value="thriller"> Thrillers</label>
+
+
+</div>
+<div class="checkbox-group">
+<label><input type="checkbox" name="genre" value="young-adult"> Young adult</label>
+
+
+</div>
+<div class="checkbox-group">
+<label><input type="checkbox" name="genre" value="history"> History</label></div>
+
+<label for="bio">Where do you like to read?:
+          <textarea id="bio" name="bio" rows="3" cols="30" placeholder="I like reading on the beach..."></textarea>
+        </label>
+
+<input id="submit" type="submit" value="submit"/>
+
+    </div>
+  </div>
+
+
+
+  </fieldset> 
+
+</form>
+</div>
+</body>
+</html>
